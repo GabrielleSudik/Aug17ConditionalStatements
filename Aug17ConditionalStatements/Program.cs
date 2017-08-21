@@ -24,6 +24,8 @@ namespace Aug17ConditionalStatements
             {
                 Console.WriteLine("Sorry, you are too young for this movie.");
             }
+
+            Console.WriteLine("Testing");
             Console.ReadLine();
         }
     }
