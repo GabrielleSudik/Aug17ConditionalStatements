@@ -64,6 +64,43 @@ namespace Aug17ConditionalStatements
             //you don't NEED an else statement, but
             //they are useful for serving as a catch-all outside the if statements
 
+            //last exercise of the night.
+            //put here so you can just run code right away
+
+            Console.WriteLine("Please enter a number.");
+            int userNumber = int.Parse(Console.ReadLine());
+
+            //you still don't quite understand modulo, but it works something like this:
+            //you are dividing the user's number by 2.
+            //if there is no remainder, it's even. if yes, it's odd.
+            //i guess you write it like the below
+
+            if (userNumber % 2 == 0)  
+            {
+                Console.WriteLine("You typed an even number.");
+            }
+
+            else
+            {
+                Console.WriteLine("You typed an odd number.");
+            }
+
+            //it's like, you wrote: if the number divided by x leaves a remainder of y...
+            //in the below ex, if you divide by 7 and have a remainder of 0
+            //yay you understood it!
+
+            if (userNumber % 7 == 0)
+            {
+                Console.WriteLine("Your number is a mulitple of 7.");
+            }
+
+            else
+            {
+                Console.WriteLine("Your number is not a multiple of 7.");
+            }
+
+            //lol you can use the modulo code to play BizzBuzz
+
             Console.WriteLine("How many people were in your party?");
             int numberDiners = int.Parse(Console.ReadLine());
 
@@ -118,21 +155,6 @@ namespace Aug17ConditionalStatements
             {
                 Console.WriteLine("You big dummy!");
             }
-
-            //homework... come back later.
-
-
-            //Console.WriteLine("Please write a number between 1 and 100.");
-            //int intA = int.Parse(Console.ReadLine());
-
-            //Console.WriteLine("Now enter another number between 1 and 100.");
-            //int intB = int.Parse(Console.ReadLine());
-
-            //if (intA == intB)
-            //{
-
-            //}
-
 
             //class practice -- ages and if else
             Console.WriteLine("\nWelcome to the new school system!");
